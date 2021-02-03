@@ -1,0 +1,30 @@
+name: group-4
+channels:
+  - conda-forge
+  - cpape
+dependencies:
+  - python==3.7
+  - imageio
+  - h5py
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - napari
+  - nb_conda
+  - networkx
+  - nifty
+  - pandas
+  - pillow
+  - scikit-learn
+  - scikit-image
+  - scipy
+  - tensorboard
+  - tifffile
+  - tqdm
+  - yaml
+  - vigra
+  - z5py
+  - pip
+  - pip:
+    - https://github.com/constantinpape/elf/archive/0.2.3.tar.gz
+
